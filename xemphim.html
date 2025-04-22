@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/xemphim.css">
+<link rel="stylesheet" href="bìnhluon.js">
+  </head>
+<body>
+    <!--hàng 1-->
+    <header class="hang1">
+        <div class="logo"><a href="trangchu.html">phimthôi</a></div>
+        <div class="timkim">
+          <input type="text" id="searchInput" placeholder="Tìm kiếm phim..."
+          autocomplete="off">
+          <ul class="suggestions-list" id="suggestionsList"></ul>
+        </div>
+      
+        <div class="user-actions">
+          <button >Đăng Ký</button>
+          <button >Đăng nhập</button>
+        </div>
+      </header>
+      <!--hàng2-->
+      <div class="hang2">
+        <ul class="tronghang2">
+          <li onclick="window.location.href='muctutien.html'" style="cursor:pointer;">Tu Tiên</li>
+          <li onclick="window.location.href='muctutien.html'" style="cursor:pointer;">luyện Cấp</li>
+          <li onclick="window.location.href='muctutien.html'" style="cursor:pointer;">Trùng sinh</li>
+        </ul>
+      </div>
+      <!--hang3benphai-->
+      <div class="hang3benphai">
+        <h2 class="tieude">XEM NHIỀU</h2>
+  
+          <a href="khinhanvaophim.html">
+          <div class="hinh1">
+            <img src="anhmoi/giathien.jpg" alt="Phim 1">
+            <div class="tenphim1">Già Thiên</div>
+          </div>
+          </a>
+        
+          <a href="khinhanvaophim.html">
+            <div class="hinh1">
+              <img src="anhmoi/dauphathuongkhung.jpg" alt="Phim 1">
+              <div class="tenphim1">Đấu Pha Thương Khung</div>
+            </div>
+            </a>
+
+      </div>
+      <!--hang3bentrai-->
+<div class="hang3trai">
+    <div class="hang3trai70">
+
+      <div class="videophim">
+        <!-- Video YouTube -->
+        <iframe width="100%" height="450"
+          src="https://www.youtube.com/embed/1ZtEyd4Ep9Y"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  
+  
+        <!--hang4-->
+        <div class="quatrang">
+          <button >tập</button>
+        </div>
+        <div class="quatrang">
+        <button onclick="window.location.href='xemphim.html'">1</button>
+        </div>
+          <!--hang5-->
+
+
+          <div class="binhluan">
+            <h3>Bình luận</h3>
+            <textarea placeholder="Viết bình luận..."></textarea>
+            <button onclick="guiBinhLuan(this)">Gửi</button>
+            <ul class="danhSachBinhLuan"></ul>
+
+          </div>
+          
+          
+
+          <!--hang6-->
+        <!-- Phần nội dung chính của trang web -->
+<div class="content">
+  <!-- Nội dung trang web ở đây -->
+</div>      
+  <!-- Phần chân trang -->
+  <footer class="footer">
+    <p>&copy; lê văn biên</p>
+    <p>Liên hệ: <a href="email">*****bien@gmail.com</a></p>
+    <p>Theo dõi: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>
